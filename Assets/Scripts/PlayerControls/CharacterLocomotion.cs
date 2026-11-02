@@ -12,10 +12,14 @@ public class CharacterLocomotion : MonoBehaviour
     
     [SerializeField]
     private CapsuleCollider playerCollider;
+    
+    [SerializeField]
+    private Transform startPoint;
 
     Animator animator;
     InputAction moveAction;
     private InputAction ghostAction;
+    private InputAction resetAction;
 
     private bool isGhost;
 
@@ -29,6 +33,7 @@ public class CharacterLocomotion : MonoBehaviour
         var playerMap = inputActions.FindActionMap("Player");
         moveAction = playerMap.FindAction("Movement");
         ghostAction = playerMap.FindAction("GhostMode");
+        resetAction = playerMap.FindAction("Reset");
     }
 
     private void Start()
@@ -36,6 +41,8 @@ public class CharacterLocomotion : MonoBehaviour
         ghostAction.performed += ToggleGhostMode;
         isGhost = false;
         playerCollider.enabled = true;
+        
+        resetAction.performed += ResetPosition;
     }
 
     void OnEnable()
@@ -43,6 +50,7 @@ public class CharacterLocomotion : MonoBehaviour
         // Enable the actions when the GameObject is active
         moveAction?.Enable();
         ghostAction?.Enable();
+        resetAction?.Enable();
     }
 
     void OnDisable()
@@ -50,11 +58,13 @@ public class CharacterLocomotion : MonoBehaviour
         // Disable the actions when the GameObject is inactive
         moveAction?.Disable();
         ghostAction?.Disable();
+        resetAction?.Disable();
     }
 
     void OnDestroy()
     {
         ghostAction.performed -= ToggleGhostMode;
+        resetAction.performed -= ResetPosition;
     }
 
     void Update()
@@ -71,5 +81,10 @@ public class CharacterLocomotion : MonoBehaviour
     {
         isGhost = !isGhost;
         playerCollider.enabled = !isGhost;
+    }
+    
+    private void ResetPosition(InputAction.CallbackContext context)
+    { 
+        transform.position = startPoint.position;
     }
 }
