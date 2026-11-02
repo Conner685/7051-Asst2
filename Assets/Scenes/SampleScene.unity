@@ -452,7 +452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5cc5dfd1220e6446b6896628929f9d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterAiming
-  turnSpeed: 15
+  turnSpeed: 30
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,8 +739,8 @@ MonoBehaviour:
       Owner: {fileID: 1545842666}
       Enabled: 1
       Input:
-        InputAction: {fileID: 0}
-        Gain: 1
+        InputAction: {fileID: -3185207194655551622, guid: e5b70f164d37bd64b8003e0db4b504a2, type: 3}
+        Gain: 5
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -750,8 +750,8 @@ MonoBehaviour:
       Owner: {fileID: 1545842666}
       Enabled: 1
       Input:
-        InputAction: {fileID: 0}
-        Gain: 1
+        InputAction: {fileID: -3185207194655551622, guid: e5b70f164d37bd64b8003e0db4b504a2, type: 3}
+        Gain: -5
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
