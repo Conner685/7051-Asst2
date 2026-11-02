@@ -180,7 +180,15 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
+<<<<<<< Updated upstream
   field of view: 60.000004
+=======
+<<<<<<< Updated upstream
+  field of view: 60
+=======
+  field of view: 30
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -206,8 +214,18 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0.06119227, y: -2.3107868e-10, z: 1.4166779e-11, w: 0.99812603}
   m_LocalPosition: {x: 2.98871, y: 2, z: -1.2209699}
+=======
+<<<<<<< Updated upstream
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+=======
+  m_LocalRotation: {x: 0.08045888, y: -0.000000003143914, z: 2.5377858e-10, w: 0.9967579}
+  m_LocalPosition: {x: 2.98871, y: 2.25, z: -1.9709699}
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -502,6 +520,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1251322416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -828,7 +851,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5d7c088409d9a40b7b09aa707777f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineOrbitalFollow
+<<<<<<< Updated upstream
   TargetOffset: {x: 0, y: -0.25, z: 0.75}
+=======
+  TargetOffset: {x: 0, y: 0, z: 0}
+>>>>>>> Stashed changes
   TrackerSettings:
     BindingMode: 4
     PositionDamping: {x: 0, y: 0, z: 0}
@@ -903,7 +930,11 @@ MonoBehaviour:
     LookAtTarget: {fileID: 1328479866}
     CustomLookAtTarget: 1
   Lens:
+<<<<<<< Updated upstream
     FieldOfView: 60.000004
+=======
+    FieldOfView: 30
+>>>>>>> Stashed changes
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -930,8 +961,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545842662}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: 0.061192267, y: -2.3188462e-10, z: 2.731276e-11, w: 0.99812603}
   m_LocalPosition: {x: 2.98871, y: 2, z: -1.2209699}
+=======
+  m_LocalRotation: {x: 0.08045888, y: -0.000000003143914, z: 2.5377855e-10, w: 0.9967579}
+  m_LocalPosition: {x: 2.98871, y: 2.25, z: -1.9709699}
+>>>>>>> Stashed changes
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -942,6 +978,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400136, guid: 20d97ea0953936148b25caa82b5e14f9, type: 3}
   m_PrefabInstance: {fileID: 1251322416}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
