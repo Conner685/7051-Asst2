@@ -25,6 +25,16 @@
                     "interactions": "",
                     "initialStateCheck": true,
                     "priority": 0
+                },
+                {
+                    "name": "GhostMode",
+                    "type": "Button",
+                    "id": "9d0672aa-6344-43ea-92f4-68aeea292162",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -102,6 +112,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b4ef8b77-1e39-4681-908e-728a95215c71",
+                    "path": "<Keyboard>/g",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GhostMode",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

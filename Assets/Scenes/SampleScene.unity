@@ -568,6 +568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CharacterLocomotion
   inputActions: {fileID: -944628639613478452, guid: e5b70f164d37bd64b8003e0db4b504a2, type: 3}
   inputDampTime: 0.05
+  playerCollider: {fileID: 620977732}
 --- !u!114 &620977730
 MonoBehaviour:
   m_ObjectHideFlags: 0
