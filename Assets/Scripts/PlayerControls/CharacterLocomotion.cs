@@ -16,6 +16,8 @@ public class CharacterLocomotion : MonoBehaviour
     [SerializeField]
     private Transform startPoint;
 
+    [SerializeField] private EnemyNav enemyNav;
+
     Animator animator;
     InputAction moveAction;
     private InputAction ghostAction;
@@ -67,7 +69,7 @@ public class CharacterLocomotion : MonoBehaviour
         resetAction.performed -= ResetPosition;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         // Read 2D Vector directly from WASD binding
         input = moveAction.ReadValue<Vector2>();
