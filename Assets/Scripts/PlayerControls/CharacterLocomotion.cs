@@ -14,9 +14,10 @@ public class CharacterLocomotion : MonoBehaviour
     private CapsuleCollider playerCollider;
     
     [SerializeField]
-    private Transform startPoint;
+    public Transform startPoint;
+    [SerializeField] public Transform enemyPoint; 
 
-    [SerializeField] private EnemyNav enemyNav;
+    [SerializeField] private GameObject enemy;
 
     Animator animator;
     InputAction moveAction;
@@ -88,5 +89,6 @@ public class CharacterLocomotion : MonoBehaviour
     private void ResetPosition(InputAction.CallbackContext context)
     { 
         transform.position = startPoint.position;
+        enemy.transform.position = enemyPoint.position;
     }
 }
