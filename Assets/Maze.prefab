@@ -5063,6 +5063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TerrainWall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4907880948378497603, guid: f881ab91ce40e8d4e82883cf3b908ef4, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b535925a643562ae877e95e42f33725, type: 2}
     - target: {fileID: 6047337734315235488, guid: f881ab91ce40e8d4e82883cf3b908ef4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
@@ -5124,6 +5128,14 @@ PrefabInstance:
     - target: {fileID: 439637035750633701, guid: f881ab91ce40e8d4e82883cf3b908ef4, type: 3}
       propertyPath: m_Name
       value: TerrainWall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907880948378497603, guid: f881ab91ce40e8d4e82883cf3b908ef4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4907880948378497603, guid: f881ab91ce40e8d4e82883cf3b908ef4, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4907880948378497603, guid: f881ab91ce40e8d4e82883cf3b908ef4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
