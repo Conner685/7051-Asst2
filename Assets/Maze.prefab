@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2811467896956767177}
+  - component: {fileID: 565698656844515500}
   m_Layer: 0
   m_Name: Maze
   m_TagString: Untagged
@@ -40,6 +41,20 @@ Transform:
   - {fileID: 4183101286413246724}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &565698656844515500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86101118549569013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0a89bf787bc111c5b1a499d1ccab87b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Maze
+  startPoint: {fileID: 5512042782783783278}
+  enemyPoint: {fileID: 2136581893451111864}
 --- !u!1 &110609591065872024
 GameObject:
   m_ObjectHideFlags: 0
